@@ -38,7 +38,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: lagerverwaltung-app
+    container_name: lagerverwaltung-gradio
     restart: unless-stopped
     depends_on:
       mongodb:
